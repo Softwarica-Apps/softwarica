@@ -1,0 +1,29 @@
+{
+  "name": "softwarica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "keywords": [
+    "softwarica",
+    "finance",
+    "tailored-software"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Softwarica-Apps/softwarica.git"
+  },
+  "author": "Aniket Kharel",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
