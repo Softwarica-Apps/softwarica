@@ -1,7 +1,5 @@
-elecctron-builder.yml
-
+electron-builder.yml
 
 node_modules
-
 
 dist
